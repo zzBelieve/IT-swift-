@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0783E0941B9003DF006DFFC1 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */; };
 		0796AAA11B8F00D500A39BD7 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0796AA891B8F00D500A39BD7 /* MJRefresh.bundle */; };
 		0796AAA21B8F00D500A39BD7 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0796AA8C1B8F00D500A39BD7 /* MJRefreshComponent.m */; };
 		0796AAA31B8F00D500A39BD7 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0796AA8E1B8F00D500A39BD7 /* MJRefreshConst.m */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TechnologyViewController.swift; path = ../../../TechnologyViewController.swift; sourceTree = "<group>"; };
 		0796AA891B8F00D500A39BD7 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
 		0796AA8A1B8F00D500A39BD7 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
 		0796AA8B1B8F00D500A39BD7 /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				07A9DAE31B8DA458008B141A /* HomeViewController.swift */,
+				0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */,
 				0796AAB01B8F10FC00A39BD7 /* zzArticleCell.xib */,
 				0796AAB21B8F122000A39BD7 /* zzArticleCell.swift */,
 			);
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0783E0941B9003DF006DFFC1 /* TechnologyViewController.swift in Sources */,
 				0796AAA61B8F00D500A39BD7 /* MJRefreshGifHeader.m in Sources */,
 				0796AAA91B8F00D500A39BD7 /* MJRefreshLegendHeader.m in Sources */,
 				0796AAA21B8F00D500A39BD7 /* MJRefreshComponent.m in Sources */,

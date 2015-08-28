@@ -203,7 +203,6 @@ class HomeViewController: MainViewController,UITableViewDelegate,UITableViewData
         let zzTableView: UITableView = UITableView(frame: self.view.bounds, style: UITableViewStyle.Plain)
         zzTableView.delegate = self
         zzTableView.dataSource = self
-        zzTableView.backgroundColor = UIColor.cyanColor()
         self.zzTableView = zzTableView
         self.view .addSubview(zzTableView)
         
