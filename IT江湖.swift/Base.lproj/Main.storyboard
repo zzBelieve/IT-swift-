@@ -68,6 +68,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="Meo-dE-JxS" kind="relationship" relationship="rootViewController" id="uAO-ni-G04"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k03-Vh-pSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,6 +127,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IMG-ae-Cto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-12" y="1548"/>
+        </scene>
+        <!--Intersting Article View Controller View Controller-->
+        <scene sceneID="M5I-e7-FCR">
+            <objects>
+                <viewController id="Meo-dE-JxS" customClass="InterstingArticleViewControllerViewController" customModule="IT江湖_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WwE-Rf-d3U"/>
+                        <viewControllerLayoutGuide type="bottom" id="zak-eM-zov"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V3A-8Q-xCS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1sB-lh-wzB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNc-Fa-cyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="2367"/>
         </scene>
     </scenes>
     <resources>
