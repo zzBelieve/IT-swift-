@@ -15,7 +15,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch.  55e5165067e58e3b190065dd
+        
+       //设置友盟社会化组件appkey
+        
+        UMSocialData.setAppKey("55e5165067e58e3b190065dd")
+        
+        //设置微信key
+//        UMSocialData.setAppKey("54238dc5fd98c501b5028d70")
+//        UMSocialSinaHandler.openSSOWithRedirectURL("http://sns.whalecloud.com/sina2/callback")
+        
+        UMSocialQQHandler.setQQWithAppId("1103695854", appKey: "Qx34CKDOmDxksgT9", url: "http://www.umeng.com/social")
+        
+//        [UMSocialWechatHandler setWXAppId:@"wxd930ea5d5a258f4f" appSecret:@"db426a9829e4b49a0dcac7b4162da6b6" url:@"http://www.umeng.com/social"];
+        
+        UMSocialWechatHandler.setWXAppId("wxd930ea5d5a258f4f", appSecret: "db426a9829e4b49a0dcac7b4162da6b6", url: "http://www.umeng.com/social")
+        
+    
+        //打开调试log开关
+        UMSocialData.openLog(true)
+        
+        
+        
+        
         return true
     }
 
@@ -41,6 +63,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        return UMSocialSnsService.handleOpenURL(url)
+    }
 
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        
+        return UMSocialSnsService.handleOpenURL(url)
+    }
 }
 

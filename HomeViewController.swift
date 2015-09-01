@@ -234,8 +234,19 @@ class HomeViewController: MainViewController,UITableViewDelegate,UITableViewData
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        let string:NSString = self.dataArray[indexPath.row].img as String!
+        
+        let url = NSURL(string: string as String)
+        
+        let data = NSData(contentsOfURL: url!)
+        
+        let image = UIImage(data: data!)
+    
+        let github = "https://github.com/zzBelieve"
+//        UMSocialSnsService.presentSnsController(self, appKey: "55e5165067e58e3b190065dd", shareText: github + self.dataArray[indexPath.row].title! as String!, shareImage: image, shareToSnsNames: nil, delegate: nil)
         
         
+        UMSocialSnsService.presentSnsIconSheetView(self, appKey: "", shareText: github + self.dataArray[indexPath.row].title! as String!, shareImage: image, shareToSnsNames: nil, delegate: nil)
         println(",,,,")
     }
     

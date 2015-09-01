@@ -11,4 +11,13 @@
 #import "MJRefresh.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <SDWebImage/SDImageCache.h>
+
+
+#import "UMSocial.h"
+#import "UMSocialWechatHandler.h"
+//#import "UMSocialSinaHandler.h"
+#import "UMSocialControllerService.h"
+#import "UMSocialSnsPlatformManager.h"
+#import "UMSocialQQHandler.h"
+
 #endif
