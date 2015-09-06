@@ -85,6 +85,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="Wzh-ym-3mC" kind="relationship" relationship="rootViewController" id="pCa-kX-etY"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QVF-0H-YSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,6 +149,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNc-Fa-cyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10" y="2367"/>
+        </scene>
+        <!--User View Controller-->
+        <scene sceneID="PBw-gZ-xjQ">
+            <objects>
+                <viewController id="Wzh-ym-3mC" customClass="UserViewController" customModule="IT江湖_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mno-lW-on0"/>
+                        <viewControllerLayoutGuide type="bottom" id="P9u-cu-T1k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aoJ-Rj-4S8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RSi-WL-2Bu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAF-Hz-Y9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="3265"/>
         </scene>
     </scenes>
     <resources>

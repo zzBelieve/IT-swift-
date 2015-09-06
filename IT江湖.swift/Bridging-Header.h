@@ -20,4 +20,5 @@
 #import "UMSocialSnsPlatformManager.h"
 #import "UMSocialQQHandler.h"
 
+#import <MessageUI/MessageUI.h>
 #endif

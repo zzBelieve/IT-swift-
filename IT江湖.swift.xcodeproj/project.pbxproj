@@ -31,6 +31,11 @@
 		07133E9D1B95784900AAD835 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07133E931B95784900AAD835 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		07133E9E1B95784900AAD835 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07133E961B95784900AAD835 /* libSocialWechat.a */; };
 		07133E9F1B95784900AAD835 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07133E971B95784900AAD835 /* libWeChatSDK.a */; };
+		07298E2B1B9C0D8700A36211 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298E2A1B9C0D8700A36211 /* UserViewController.swift */; };
+		07298E2D1B9C15F300A36211 /* UserWeibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298E2C1B9C15F300A36211 /* UserWeibo.swift */; };
+		07298E2F1B9C199400A36211 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07298E2E1B9C199400A36211 /* MessageUI.framework */; };
+		07298E321B9C1AFD00A36211 /* FollowUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07298E301B9C1AFD00A36211 /* FollowUsViewController.swift */; };
+		07298E331B9C1AFD00A36211 /* FollowUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07298E311B9C1AFD00A36211 /* FollowUsViewController.xib */; };
 		0783E0941B9003DF006DFFC1 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */; };
 		078EA6511B93F6F3005CADD7 /* InterstingArticleViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078EA6501B93F6F3005CADD7 /* InterstingArticleViewControllerViewController.swift */; };
 		0796AAA11B8F00D500A39BD7 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0796AA891B8F00D500A39BD7 /* MJRefresh.bundle */; };
@@ -58,6 +63,7 @@
 		07A9DAD91B8D9CB2008B141A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9DAD81B8D9CB2008B141A /* Article.swift */; };
 		07A9DADE1B8DA39A008B141A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9DADD1B8DA39A008B141A /* Api.swift */; };
 		07A9DAE41B8DA458008B141A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9DAE31B8DA458008B141A /* HomeViewController.swift */; };
+		07C3CE581B96D8A000749C73 /* user.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C3CE571B96D8A000749C73 /* user.plist */; };
 		91CD37507A0AC2CC23C50A9A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B260E93A03A7F49F0123E2A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -112,6 +118,11 @@
 		07133E981B95784900AAD835 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		07133E991B95784900AAD835 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		07133E9A1B95784900AAD835 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		07298E2A1B9C0D8700A36211 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = ../../../UserViewController.swift; sourceTree = "<group>"; };
+		07298E2C1B9C15F300A36211 /* UserWeibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserWeibo.swift; path = ../../../UserWeibo.swift; sourceTree = "<group>"; };
+		07298E2E1B9C199400A36211 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		07298E301B9C1AFD00A36211 /* FollowUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowUsViewController.swift; path = ../../../FollowUsViewController.swift; sourceTree = "<group>"; };
+		07298E311B9C1AFD00A36211 /* FollowUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FollowUsViewController.xib; path = ../../../FollowUsViewController.xib; sourceTree = "<group>"; };
 		0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TechnologyViewController.swift; path = ../../../TechnologyViewController.swift; sourceTree = "<group>"; };
 		078EA6501B93F6F3005CADD7 /* InterstingArticleViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterstingArticleViewControllerViewController.swift; path = ../../../InterstingArticleViewControllerViewController.swift; sourceTree = "<group>"; };
 		0796AA891B8F00D500A39BD7 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
@@ -156,6 +167,7 @@
 		07A9DAD81B8D9CB2008B141A /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = SOURCE_ROOT; };
 		07A9DADD1B8DA39A008B141A /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		07A9DAE31B8DA458008B141A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		07C3CE571B96D8A000749C73 /* user.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = user.plist; sourceTree = "<group>"; };
 		1B260E93A03A7F49F0123E2A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48669FFA50593C40506DEEA9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5016D71BE76B9A3311B71055 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07298E2F1B9C199400A36211 /* MessageUI.framework in Frameworks */,
 				07133E9F1B95784900AAD835 /* libWeChatSDK.a in Frameworks */,
 				07133E521B956AE100AAD835 /* SystemConfiguration.framework in Frameworks */,
 				07133E9C1B95784900AAD835 /* TencentOpenAPI.framework in Frameworks */,
@@ -348,6 +361,7 @@
 		07A9DAAE1B8D9761008B141A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07C3CE571B96D8A000749C73 /* user.plist */,
 				07A9DAAF1B8D9761008B141A /* Info.plist */,
 				0796AAAF1B8F074400A39BD7 /* Bridging-Header.h */,
 			);
@@ -388,6 +402,7 @@
 			isa = PBXGroup;
 			children = (
 				07A9DAD81B8D9CB2008B141A /* Article.swift */,
+				07298E2C1B9C15F300A36211 /* UserWeibo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -398,6 +413,9 @@
 				07A9DAE31B8DA458008B141A /* HomeViewController.swift */,
 				0783E0931B9003DF006DFFC1 /* TechnologyViewController.swift */,
 				078EA6501B93F6F3005CADD7 /* InterstingArticleViewControllerViewController.swift */,
+				07298E2A1B9C0D8700A36211 /* UserViewController.swift */,
+				07298E301B9C1AFD00A36211 /* FollowUsViewController.swift */,
+				07298E311B9C1AFD00A36211 /* FollowUsViewController.xib */,
 				0796AAB01B8F10FC00A39BD7 /* zzArticleCell.xib */,
 				0796AAB21B8F122000A39BD7 /* zzArticleCell.swift */,
 			);
@@ -416,6 +434,7 @@
 		979D9C1B7104B913FFD8F16B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07298E2E1B9C199400A36211 /* MessageUI.framework */,
 				07133E5B1B956B0E00AAD835 /* libz.dylib */,
 				07133E591B956B0400AAD835 /* libstdc++.dylib */,
 				07133E571B956AF700AAD835 /* CoreTelephony.framework */,
@@ -514,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07133E9D1B95784900AAD835 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				07298E331B9C1AFD00A36211 /* FollowUsViewController.xib in Resources */,
 				07A9DAB61B8D9761008B141A /* Main.storyboard in Resources */,
 				0796AAB11B8F10FC00A39BD7 /* zzArticleCell.xib in Resources */,
 				07133E451B956A5E00AAD835 /* UMSCommentInputController.xib in Resources */,
@@ -529,6 +549,7 @@
 				07133E461B956A5E00AAD835 /* UMSCommentInputControlleriPad.xib in Resources */,
 				0796AAA11B8F00D500A39BD7 /* MJRefresh.bundle in Resources */,
 				07A9DAB81B8D9761008B141A /* Images.xcassets in Resources */,
+				07C3CE581B96D8A000749C73 /* user.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,11 +618,13 @@
 				0783E0941B9003DF006DFFC1 /* TechnologyViewController.swift in Sources */,
 				0796AAA61B8F00D500A39BD7 /* MJRefreshGifHeader.m in Sources */,
 				0796AAA91B8F00D500A39BD7 /* MJRefreshLegendHeader.m in Sources */,
+				07298E2B1B9C0D8700A36211 /* UserViewController.swift in Sources */,
 				0796AAA21B8F00D500A39BD7 /* MJRefreshComponent.m in Sources */,
 				07A9DADE1B8DA39A008B141A /* Api.swift in Sources */,
 				0796AAA51B8F00D500A39BD7 /* MJRefreshGifFooter.m in Sources */,
 				0796AAB31B8F122000A39BD7 /* zzArticleCell.swift in Sources */,
 				0796AAA81B8F00D500A39BD7 /* MJRefreshLegendFooter.m in Sources */,
+				07298E2D1B9C15F300A36211 /* UserWeibo.swift in Sources */,
 				07A9DAD41B8D9974008B141A /* MainViewController.swift in Sources */,
 				07A9DAD21B8D992E008B141A /* MainTabBarController.swift in Sources */,
 				07A9DAD61B8D999D008B141A /* Define.swift in Sources */,
@@ -609,6 +632,7 @@
 				0796AAAB1B8F00D500A39BD7 /* UIScrollView+MJRefresh.m in Sources */,
 				0796AAA71B8F00D500A39BD7 /* MJRefreshHeader.m in Sources */,
 				07A9DAB11B8D9761008B141A /* AppDelegate.swift in Sources */,
+				07298E321B9C1AFD00A36211 /* FollowUsViewController.swift in Sources */,
 				0796AAAC1B8F00D500A39BD7 /* UIView+MJExtension.m in Sources */,
 				0796AAAA1B8F00D500A39BD7 /* UIScrollView+MJExtension.m in Sources */,
 				078EA6511B93F6F3005CADD7 /* InterstingArticleViewControllerViewController.swift in Sources */,
@@ -702,7 +726,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -740,7 +764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -752,6 +776,7 @@
 			baseConfigurationReference = 48669FFA50593C40506DEEA9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IT江湖.swift/3rd/UMSocial_Sdk_4.2.3/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -777,6 +802,7 @@
 			baseConfigurationReference = 5016D71BE76B9A3311B71055 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IT江湖.swift/3rd/UMSocial_Sdk_4.2.3/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",

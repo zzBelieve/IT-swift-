@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -12,16 +13,29 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aq8-d9-ov7" id="cyq-fB-D7I">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3D-48-HGg">
-                        <rect key="frame" x="171" y="15" width="193" height="80"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅军哥好帅" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3D-48-HGg">
+                        <rect key="frame" x="171" y="15" width="200" height="80"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="mxe-DD-i1a">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="mxe-DD-i1a">
                         <rect key="frame" x="8" y="11" width="128" height="88"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="128" id="Wx0-CI-rxt"/>
+                            <constraint firstAttribute="height" constant="88" id="ywf-Dc-M2s"/>
+                        </constraints>
                     </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="mxe-DD-i1a" secondAttribute="bottom" constant="10" id="1ie-AA-B9R"/>
+                    <constraint firstItem="l3D-48-HGg" firstAttribute="top" secondItem="cyq-fB-D7I" secondAttribute="topMargin" constant="7" id="EuK-jg-NAU"/>
+                    <constraint firstItem="l3D-48-HGg" firstAttribute="centerY" secondItem="mxe-DD-i1a" secondAttribute="centerY" id="MmI-gh-Zad"/>
+                    <constraint firstItem="mxe-DD-i1a" firstAttribute="leading" secondItem="cyq-fB-D7I" secondAttribute="leading" constant="8" id="Pm6-M9-fPO"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="l3D-48-HGg" secondAttribute="trailing" constant="2" id="W2X-fu-fnE"/>
+                    <constraint firstItem="mxe-DD-i1a" firstAttribute="top" secondItem="cyq-fB-D7I" secondAttribute="top" constant="11" id="c9p-jz-gL5"/>
+                    <constraint firstItem="l3D-48-HGg" firstAttribute="leading" secondItem="mxe-DD-i1a" secondAttribute="trailing" constant="35" id="rdB-d8-Usz"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="articleImgeView" destination="mxe-DD-i1a" id="LvS-5a-qqe"/>

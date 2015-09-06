@@ -43,7 +43,7 @@ var userCollecList = "http://m.itjh.com.cn:8080/mitjh/poas/queryArticleListByUse
 //登录状态
 var loginState:Bool  = false
 //微博用户信息
-//var userWeibo:UserWeibo = UserWeibo()
+var userWeibo:UserWeibo = UserWeibo()
 //缓存用户信息
 //缓存用户信息
 var userDefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
